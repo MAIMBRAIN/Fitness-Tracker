@@ -1,4 +1,3 @@
-// Dependencies
 // Require core node module "path" to display HTML
 const path = require("path");
 
@@ -22,4 +21,4 @@ module.exports = (app) =>
     {
         res.sendFile(path.join(__dirname, "../public/stats.html"));
     });
-}
+};
